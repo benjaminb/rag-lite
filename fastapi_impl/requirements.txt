@@ -1,0 +1,12 @@
+bs4
+chromadb
+# Install cpu only torch (much smaller) see https://stackoverflow.com/questions/51730880/where-do-i-get-a-cpu-only-version-of-pytorch
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+fastapi
+langchain
+langchain_chroma
+langchain_community
+langchain_huggingface
+lxml
+pypdf
+uvicorn
