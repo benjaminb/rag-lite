@@ -98,7 +98,7 @@ def main():
 
     print_response(data)
 
-    filename = 'responses/response' + datetime.now().strftime("%Y%m%d_%H%M%S") + '.json'
+    filename = '../responses/response' + datetime.now().strftime("%Y%m%d_%H%M%S") + '.json'
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
     print(f"Response saved to {filename}")

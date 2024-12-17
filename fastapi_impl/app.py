@@ -44,7 +44,7 @@ Completion model constants
 ENDPOINT_NAME = 'llama-1b-endpoint'
 COMPLETION_PARAMETERS = {
     "max_new_tokens": 1000,
-    "temperature": 0.2
+    "temperature": 0.2,
 }
 TOP_K = 2
 with open('prompt_template.txt', 'r') as file:
