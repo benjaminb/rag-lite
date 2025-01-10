@@ -6,7 +6,7 @@ from textwrap import wrap
 from datetime import datetime
 
 
-API_URL = "http://ec2-107-21-213-131.compute-1.amazonaws.com:8000"
+API_URL = "enter your API host url here"
 
 APP_ROUTES = {
     "heartbeat": "/heartbeat",
@@ -66,8 +66,7 @@ def print_response(response):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='Add documents or query the RAG system')
+    parser = argparse.ArgumentParser(description='Add documents or query the RAG system')
     parser.add_argument(
         '--type', help='"add" to add a document, "ask" to query the system, "heartbeat" to check the system status. Also "ask-no-ref" to query without references')
     parser.add_argument(
