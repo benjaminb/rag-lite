@@ -1,7 +1,8 @@
 
 # Question-Answering with AWS/SageMaker, Llama, and RAG
 
-This project aims to make a question-answering service as lightweight and low-cost. 
+This project aims to make a question-answering service as lightweight and low-cost as possible by using RAG to improve lower-parameter LLM responses.
+ 
 ## Setup
 
 ### Prerequisites
